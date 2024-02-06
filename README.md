@@ -74,4 +74,4 @@ Generates the list of plants based on selected categories, allowing users to add
 
 The project was developed with insights gained from a React course on [Openclassrooms](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react). This section acknowledges the contributions and inspiration received from the course.
 
-Feel free to explore and enhance the project!"# jungle-house" 
+Feel free to explore and enhance the project! 
