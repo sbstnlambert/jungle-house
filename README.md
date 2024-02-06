@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# La Maison Jungle - React Plant Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+"La Maison Jungle" is a React-based web application that simulates a plant shop, allowing users to explore a variety of plants, add them to their cart, and manage their purchases. This documentation provides an overview of the project structure, details about each React component, and its main features.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Components](#components)
+  - [1. App.js](#1-appjs)
+  - [2. Banner.js](#2-bannerjs)
+  - [3. CareScale.js](#3-carescalejs)
+  - [4. Cart.js](#4-cartjs)
+  - [5. Categories.js](#5-categoriesjs)
+  - [6. PlantItem.js](#6-plantitemjs)
+  - [7. ShoppingList.js](#7-shoppinglistjs)
+- [Functionality](#functionality)
+- [Acknowledgements](#Acknowledgements)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is organized into various components, each serving a specific purpose in creating an interactive plant shopping experience. Users can explore plants, add them to the cart, and manage their purchases seamlessly.
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is designed for learning purposes. To explore the project, follow these steps:
 
-### `yarn build`
+1. Clone the repository.
+2. Navigate to the `/src` directory.
+3. Run the application using your preferred React development environment.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. `App.js`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The main application component that renders the banner, shopping cart, shopping list, and footer.
 
-### `yarn eject`
+### 2. `Banner.js`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Displays the banner with the application logo and title.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. `CareScale.js`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A reusable component representing care scales for light and water requirements. Clicking on it provides information about the care needs of a plant.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. `Cart.js`
 
-## Learn More
+Manages the shopping cart, allowing users to view added items, calculate the total, and reset the cart.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5. `Categories.js`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Enables users to filter plants by categories, providing a dropdown menu and a reset button.
 
-### Code Splitting
+### 6. `PlantItem.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Displays an individual plant item with its image, name, price, and care scales. Users can click on the item to add it to the cart.
 
-### Analyzing the Bundle Size
+### 7. `ShoppingList.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Generates the list of plants based on selected categories, allowing users to add plants to the cart.
 
-### Making a Progressive Web App
+## Functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Display a list of plants on the homepage.
+- Filter the plant list based on plant categories.
+- Open and close the shopping cart menu.
+- Add plants to the shopping cart.
+- Calculate the total price of items in the cart.
+- Reset the shopping cart.
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The project was developed with insights gained from a React course on [Openclassrooms](https://openclassrooms.com/fr/courses/7008001-debutez-avec-react). This section acknowledges the contributions and inspiration received from the course.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore and enhance the project!
