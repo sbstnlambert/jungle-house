@@ -17,6 +17,7 @@
   - [6. PlantItem.js](#6-plantitemjs)
   - [7. ShoppingList.js](#7-shoppinglistjs)
 - [Functionality](#functionality)
+- [Upcoming Features](#upcoming-features)
 - [Acknowledgements](#Acknowledgements)
 
 ## Overview
@@ -69,6 +70,15 @@ Generates the list of plants based on selected categories, allowing users to add
 - Add plants to the shopping cart.
 - Calculate the total price of items in the cart.
 - Reset the shopping cart.
+
+## Upcoming Features
+
+As the project evolves, the following features are planned:
+
+1. **Create a visual identity:** Develop a consistent visual design and branding for a more engaging user experience.
+2. **Optimize the UI:** Enhance the user interface for improved aesthetics and usability.
+3. **Integrate external plant data:** Utilize external APIs such as [Trefle](https://trefle.io/) or [Perenual](https://www.perenual.com/) to fetch comprehensive plant information dynamically using `useEffect`.
+4. **Implement service files:** Integrate service files to enhance codebase architecture and maintainability.
 
 ## Acknowledgements
 
